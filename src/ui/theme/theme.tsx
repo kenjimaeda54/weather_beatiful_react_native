@@ -11,8 +11,9 @@ const _fonts = {
 
 export const lightTheme = {
   colors: {
-    primary: "#FFFFFF",
+    primary: "#FAF9F6",
     secondary: "#171616",
+    splash: "#FAF9F6",
     gray: "#d5d1d1",
     yellow: "#daaf80",
     purple: "#883278"
@@ -22,8 +23,9 @@ export const lightTheme = {
 
 export const darkTheme = {
   colors: {
-    secondary: "#FFFFFF",
+    secondary: "#FAF9F6",
     primary: "#171616",
+    splash: "#FAF9F6",
     gray: "#d5d1d1",
     yellow: "#daaf80",
     purple: "#883278"
