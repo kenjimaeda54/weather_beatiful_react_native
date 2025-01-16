@@ -1,10 +1,12 @@
-import { Pressable, Text, View, } from "react-native";
+import { Text, View, } from "react-native";
 import styled from "styled-components";
+
+
 
 //padding: 35px 20px top right bottom left       
 export const Container = styled(View)` 
-  padding: 40px 20px; 
-  gap: 25px;
+  padding: 15px 20px 40px 20px; 
+  gap: 23px;
 `;
 
 

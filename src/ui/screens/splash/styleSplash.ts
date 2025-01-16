@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Container = styled(View)` 
   flex: 1;
-  background-color: ${({ theme }) => theme.colors.splash};
+  background-color: ${({ theme }) => theme.colors.primary};
   justify-content: center;
   align-items: center;  
 `;
@@ -12,5 +12,4 @@ export const Container = styled(View)`
 export const Lottie = styled(LottieView)` 
   width: 200px;
   height: 200px;  
-
 `;  

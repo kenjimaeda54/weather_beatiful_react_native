@@ -2,7 +2,7 @@ import { Text, TextInput, View } from "react-native";
 import styled from "styled-components";
 
 export const Container = styled(View)` 
-   gap: 10px;
+   gap: 3px;
 `;
 
 export const Title = styled(Text)` 
@@ -18,4 +18,10 @@ export const TextInputGeneric = styled(TextInput).attrs(({ theme }) => ({ placeh
   font-family: ${({ theme }) => theme.fonts.latoRegular}; 
   color: ${({ theme }) => theme.colors.primary};
   border-radius: 5px;     
+`;
+
+export const Feedback = styled(Text)` 
+    font-size: 11px;
+    color: ${({ theme }) => theme.colors.primary};
+    font-family: ${({ theme }) => theme.fonts.latoLight};
 `;
