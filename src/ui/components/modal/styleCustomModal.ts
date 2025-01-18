@@ -1,4 +1,4 @@
-import { Text, View, } from "react-native";
+import { Text, TouchableOpacity, View, } from "react-native";
 import styled from "styled-components";
 
 
@@ -23,4 +23,19 @@ export const GoBackLogin = styled(Text)`
   align-self: center;
   text-decoration: underline;   
   text-decoration-color: ${({ theme }) => theme.colors.purple};
+`;
+
+export const ButtonLogin = styled(TouchableOpacity)`
+  width: 100%;
+  background-color: ${({ theme }) => theme.colors.purple};
+  border-radius: 5px;
+  padding-vertical: 10px;
+  margin-bottom: 15px;
+`;
+
+export const TitleLogin = styled(Text)` 
+  text-align: center; 
+  font-size: 17px;
+  color: ${({ theme }) => theme.colors.splash};    
+  font-family: ${({ theme }) => theme.fonts.latoRegular};   
 `;
