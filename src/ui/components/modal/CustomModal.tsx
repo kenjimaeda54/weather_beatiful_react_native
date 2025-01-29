@@ -3,7 +3,7 @@ import { ForwardRefRenderFunction } from "react"
 import { ButtonLogin, Container, GoBackLogin, Title, TitleLogin } from "./styleCustomModal"
 import { Dimensions, TouchableOpacity, View } from "react-native"
 import RowTitleAndSubTitle from "../row_item_and_subtitle/RowTitleAndSubTitle"
-import { useKeyboard } from "../../../utils/use_keyboard/useKeyboard"
+import { useKeyboard } from "../../utils/use_keyboard/useKeyboard"
 import { Portal } from "react-native-portalize"
 
 interface ICustomModalProps {

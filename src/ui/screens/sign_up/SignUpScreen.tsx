@@ -1,7 +1,7 @@
 import { NavigationProp, useNavigation } from "@react-navigation/native";
 import { CustomModal } from "../../components/modal/CustomModal";
 import { Container, ImageLogo } from "./styleSignUp";
-import { RootNavigation } from "../../../utils/navigation/Navigation";
+import { RootNavigation } from "../../utils/navigation/Navigation";
 
 type TypeNavigation = NavigationProp<RootNavigation, "Login">
 

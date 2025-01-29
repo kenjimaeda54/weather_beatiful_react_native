@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import { RootNavigation } from "../../utils/navigation/Navigation"
+import { RootNavigation } from "../utils/navigation/Navigation"
 import LoginScreen from "../screens/login/LoginScreen"
 import SingUpScreen from "../screens/sign_up/SignUpScreen"
 import AuthorizedRoute from "./AuthorizedRoute"

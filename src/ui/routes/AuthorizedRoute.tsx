@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
-import { AuthorizedNavigation } from "../../utils/navigation/Navigation"
+import { AuthorizedNavigation } from "../utils/navigation/Navigation"
 import HomeScreen from "../screens/home/HomeScreen"
 import ProfileScreen from "../screens/profile/ProfileScreen"
 import SearchScreen from "../screens/search/SearchScreen"
